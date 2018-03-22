@@ -1,0 +1,40 @@
+LensPartNum,FM50AF,"// Input the lens module part num, for example the part num is FM50AF",,,,
+u4LensFno,28,"// Input the Fno, for example the value 28 mean 2.8",Fno value,2.8,,
+SensorPartNum,GC5005mipi,"// Input the sensor part num, for example the part num is S5K3H7MIPI",,,,
+u4OBLevel,0,// Input the OB value in 10 bit domain,,,,
+u4MinGain,1024,// The value is mean the sensor minimize saturation gain value and it need to be calibration. The 1X gain is 1024.,,,,
+u4MaxGain,8192,// The value is mean the sensor maxinmize gain value. The 1X gain is 1024.,,,,
+u4MiniISOGain,100,// The value is the ISO value when the gain is 1X. It should be calibration too.,,,,
+u4GainStepUnitInTotalRange,32,"// The value is the gain step of sensor. The value 1024 is the 1X. For example, the gain step is 1X/8 and the value is 128 (1024/8).",1 / Gain step,8,,
+u4PreviewExposureLineUnit,16667,// The value is the line time (unit is us). We can use the right column input the pixel numbers and clock data to calculate the value.,Period pixel numbers,4572,Sensor Pclk (Hz),231270000
+u4PreviewMaxFrameRate,30,// The value is the max frame rate in preview mode. The value 30 mean the frame 30fps.,Period line numbers,1640,,
+u4VideoExposureLineUnit,16667,// The value is the line time (unit is us). We can use the right column input the pixel and clock data to calculate the value.,Period pixel numbers,4572,Sensor Pclk (Hz),432000000
+u4VideoMaxFrameRate,30,// The value is the max frame rate in video mode. The value 30 mean the frame 30fps.,Period line numbers,3144,,
+u4VideoToPreviewSensitivityRatio,1024,"// If the video mode and preview mode don't support binning mode, the value is 1024.",,,,
+u4CaptureExposureLineUnit,16667,// The value is the line time (unit is us). We can use the right column input the pixel and clock data to calculate the value.,Period pixel numbers,4572,Sensor Pclk (Hz),432000000
+u4CaptureMaxFrameRate,30,// The value is the max frame rate in capture mode. The value 8 mean the frame 8fps.,Period line numbers,3146,,
+u4CaptureToPreviewSensitivityRatio,1024,"// If the capture mode and preview mode don't support binning mode, the value is 1024.",,,,
+u4Video1ExposureLineUnit,16667,// The value is the line time (unit is us). We can use the right column input the pixel and clock data to calculate the value.,Period pixel numbers,4572,Sensor Pclk (Hz),432000000
+u4Video1MaxFrameRate,30,// The value is the max frame rate in video mode. The value 30 mean the frame 30fps.,Period line numbers,786,,
+u4Video1ToPreviewSensitivityRatio,1024,"// If the video mode and preview mode don't support binning mode, the value is 1024.",,,,
+u4Video2ExposureLineUnit,16667,// The value is the line time (unit is us). We can use the right column input the pixel and clock data to calculate the value.,Period pixel numbers,4572,Sensor Pclk (Hz),231270000
+u4Video2MaxFrameRate,30,// The value is the max frame rate in video mode. The value 30 mean the frame 30fps.,Period line numbers,1640,,
+u4Video2ToPreviewSensitivityRatio,1024,"// If the video mode and preview mode don't support binning mode, the value is 1024.",,,,
+u4Custom1ExposureLineUnit,16667,// The value is the line time (unit is us). We can use the right column input the pixel and clock data to calculate the value.,Period pixel numbers,4572,Sensor Pclk (Hz),231270000
+u4Custom1MaxFrameRate,30,// The value is the max frame rate in video mode. The value 30 mean the frame 30fps.,Period line numbers,1640,,
+u4Custom1ToPreviewSensitivityRatio,1024,"// If the video mode and preview mode don't support binning mode, the value is 1024.",,,,
+u4Custom2ExposureLineUnit,16667,// The value is the line time (unit is us). We can use the right column input the pixel and clock data to calculate the value.,Period pixel numbers,4572,Sensor Pclk (Hz),231270000
+u4Custom2MaxFrameRate,30,// The value is the max frame rate in video mode. The value 30 mean the frame 30fps.,Period line numbers,1640,,
+u4Custom2ToPreviewSensitivityRatio,1024,"// If the video mode and preview mode don't support binning mode, the value is 1024.",,,,
+u4Custom3ExposureLineUnit,16667,// The value is the line time (unit is us). We can use the right column input the pixel and clock data to calculate the value.,Period pixel numbers,4572,Sensor Pclk (Hz),231270000
+u4Custom3MaxFrameRate,30,// The value is the max frame rate in video mode. The value 30 mean the frame 30fps.,Period line numbers,1640,,
+u4Custom3ToPreviewSensitivityRatio,1024,"// If the video mode and preview mode don't support binning mode, the value is 1024.",,,,
+u4Custom4ExposureLineUnit,16667,// The value is the line time (unit is us). We can use the right column input the pixel and clock data to calculate the value.,Period pixel numbers,4572,Sensor Pclk (Hz),231270000
+u4Custom4MaxFrameRate,30,// The value is the max frame rate in video mode. The value 30 mean the frame 30fps.,Period line numbers,1640,,
+u4Custom4ToPreviewSensitivityRatio,1024,"// If the video mode and preview mode don't support binning mode, the value is 1024.",,,,
+u4Custom5ExposureLineUnit,16667,// The value is the line time (unit is us). We can use the right column input the pixel and clock data to calculate the value.,Period pixel numbers,4572,Sensor Pclk (Hz),231270000
+u4Custom5MaxFrameRate,30,// The value is the max frame rate in video mode. The value 30 mean the frame 30fps.,Period line numbers,1640,,
+u4Custom5ToPreviewSensitivityRatio,1024,"// If the video mode and preview mode don't support binning mode, the value is 1024.",,,,
+u4FocusLength,350,// The 35mm value *10,,,,
+,,,,,,
+FixSensorGain,,,,,,
